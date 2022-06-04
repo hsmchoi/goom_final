@@ -187,4 +187,4 @@ function handleIce(data) {
 function handleAddStream(data) {
   const peerFace = document.getElementById("peerFace");
   peerFace.srcObject = data.stream;
-}
+} 
